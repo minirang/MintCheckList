@@ -1,0 +1,12 @@
+{
+  "name": "mint-checklist-extension",
+  "version": "1.0.0",
+  "description": "A powerful check list extension",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

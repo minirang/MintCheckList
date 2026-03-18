@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Mint Checklist</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="app">
+        <h1>Mint Checklist</h1>
+        <div class="input-box">
+            <input id="todo-input" placeholder="할 일 입력..." />
+            <button id="add-btn">추가</button>
+        </div>
+        <ul id="todo-list"></ul>
+        <div class="stats">
+            <p id="stats-text"></p>
+            <div class="bar">
+                <div id="progress"></div>
+            </div>
+        </div>
+        <div class="actions">
+            <button id="clear-done-btn">완료 삭제</button>
+            <button id="clear-all-btn">전체 삭제</button>
+            <button id="export-btn">내보내기</button>
+            <button id="import-btn">불러오기</button>
+            <input type="file" id="import-input" hidden />
+        </div>
+    </div>
+    <script type="module" src="./dist/popup.js"></script>
+</body>
+
+</html>

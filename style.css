@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f4f6f8;
+}
+.app {
+    width: 320px;
+    padding: 15px;
+    background: white;
+}
+h1 {
+    text-align: center;
+}
+.input-box {
+    display: flex;
+    gap: 10px;
+}
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 12px;
+}
+button {
+    padding: 10px;
+    border: none;
+    background: #3cb371;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.stats {
+    margin-top: 15px;
+}
+.bar {
+    width: 100%;
+    height: 10px;
+    background: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#progress {
+    height: 100%;
+    background: #3cb371;
+    width: 0%;
+    transition: 0.3s;
+}
